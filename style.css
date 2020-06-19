@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: poppins;
+    height: 100vh;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 60px;
+}
+
+.wrapper p {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    line-height: 35px;
+}
+
+.wrapper a {
+    background: crimpson;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px, 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+span:before {
+    content: '';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0% {
+        content: 'Freelancer';
+    }
+    25% {
+        content: 'Web Developer';
+    }
+    50% {
+        content: 'Fullstack Developer';
+    }
+    75% {
+        content: 'Entrepreneur';
+    }
+    100% {
+        content: 'Designer';
+    }
+}
